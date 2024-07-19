@@ -50,13 +50,8 @@ const Footer = () => {
             <li><a href="https://direct-book.com/properties/bridgepark/book?step=step1" target='_blank' rel="noopener noreferrer"><span className="quick-link-label">Guest Info&nbsp;&nbsp;&nbsp;</span></a></li>
             <li><a href="/faq" target='_blank' rel="noopener noreferrer"><span className="quick-link-label">FAQ&nbsp;</span></a></li>
             <li><a href="/website-support" target='_blank' rel="noopener noreferrer"><span className="quick-link-label">Website Support</span></a></li>
-<<<<<<< HEAD
-            <li><a href="https://direct-book.com/properties/bridgeparkdirect?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=GBP&checkInDate=2024-06-14&checkOutDate=2024-06-15&trackPage=no" target='_blank' rel="noopener noreferrer"><span className="quick-link-label">Siteminder Page</span></a></li>
-            <li><a href="/" target='_blank' rel="noopener noreferrer"><span className="quick-link-label">Site Map</span></a></li>
-=======
             <li><a href="https://direct-book.com/properties/bridgeparkdirect?locale=en&items[0][adults]=2&items[0][children]=0&items[0][infants]=0&currency=GBP&checkInDate=2024-06-14&checkOutDate=2024-06-15&trackPage=no" target='_blank' rel="noopener noreferrer"><span className="quick-link-label">Siteminder page</span></a></li>
             <li><a href="/sitemaps" target='_blank' rel="noopener noreferrer"><span className="quick-link-label">Site Maps</span></a></li>
->>>>>>> main
             <li><a href="/privacy" target='_blank' rel="noopener noreferrer"><span className="quick-link-label">Privacy & Policy</span></a></li>
             </div>
           </ul>
