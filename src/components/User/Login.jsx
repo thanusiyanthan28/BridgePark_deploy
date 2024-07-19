@@ -86,7 +86,6 @@ const SignIn = () => {
     }
   };
 
-
   const handleGoogleSuccess = (response) => {
     const token = response.credential;
     const userData = jwtDecode(token);
@@ -96,7 +95,7 @@ const SignIn = () => {
     setIsLoggedIn(true);
     navigate("/");
   };
-  
+
   const handleGoogleFailure = (error) => {
     console.error("Google login failed", error);
     setErrors({ message: "Google login failed" });
@@ -178,8 +177,9 @@ const SignIn = () => {
                 <div className="signUpIn-submit" onClick={handleSubmit}>
                   Login
                 </div>
+              </div>
+              <div style={{ marginLeft: "100px", width: "100%" }}>
                 <GoogleLogin
-                 className="google-login-button"
                   onSuccess={handleGoogleSuccess}
                   onError={handleGoogleFailure}
                 />
