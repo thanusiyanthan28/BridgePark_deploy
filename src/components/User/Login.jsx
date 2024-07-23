@@ -178,10 +178,11 @@ const SignIn = () => {
                   Login
                 </div>
               </div>
-              <div style={{ marginLeft: "100px", width: "100%" }}>
+              <div >
                 <GoogleLogin
                   onSuccess={handleGoogleSuccess}
                   onError={handleGoogleFailure}
+                  style={{ width: '100%' }}
                 />
               </div>
               <div className="signUpIn-alreadyAccount">
