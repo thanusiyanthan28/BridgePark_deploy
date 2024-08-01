@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageSlider1 from './ImageSlider1'
 import PanoImage from './PanoImage'
-import NewMeeting from './NewMeeting'
+import NewMeeting from './Newmeeting'
 
 
 

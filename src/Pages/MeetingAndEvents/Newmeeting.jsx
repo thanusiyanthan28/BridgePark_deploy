@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import { useSwipeable } from 'react-swipeable';
-import './NewMeeting.css';
+import './Newmeeting.css';
 import { RightOutlined, LeftOutlined } from '@ant-design/icons';
 import img1 from "../../assets/MEDIA & ASSESTS/banfire 5.webp";
 import img2 from "../../assets/MEDIA & ASSESTS/christ8.webp";
